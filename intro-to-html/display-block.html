@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      block elements
+    </title>
+
+    <style>
+      .display-blocks{
+        border-color: rgb(192, 189, 189);
+        color: rgb(192, 189, 189);
+        border-radius: 5px;
+        width: 150px;
+        height: 20px;
+        font-family: Arial;
+        margin-bottom: 3px;
+        display: block;
+        border-style: solid;
+      }
+      .chat{
+        display: inline-block;
+        width: 200px;
+        vertical-align: middle;
+      }
+      .profile{
+        display: block;
+        width: 300px;
+        margin-left: 150px;
+      }
+      .google-search{
+        border:none;
+        border-radius: 20px;
+        font-size: 16px;
+        color: rgb(196, 196, 196);
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+        width: 600px;
+        height: 40px;
+        /* margin-left: 20px; */
+        padding-left: 20px;
+        margin-top: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <input type="text" placeholder="Name" class="display-blocks">
+    <input type="text" placeholder="Email" class="display-blocks">
+
+    <p class="chat">
+      Thanks for chatting with our customer support. Would you like to take our quick survey?
+    </p>
+    <button>Yes</button>
+    <button>No</button>
+    <img src = "../thumbnails/google.webp" class="profile">
+    <input type="text" placeholder="Search Google or type a URL" class="google-search">
+  </body>
+</html>
