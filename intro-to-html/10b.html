@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      cat_layout
+    </title>
+    <style>
+      p{
+        font-family: Arial;
+        margin: 0;
+      }
+      .cat_preview{
+        display: inline-block;
+      }
+      .vertical_cat_stack{
+        width: 500px;
+        display: inline-block;
+        vertical-align: top;
+        height: 50px;
+      }
+      .img_class{
+        vertical-align: top;
+        width: 60px;
+      }
+      .text_class{
+        display: inline-block;
+        height: 50px;
+        width: 200px;
+      }
+      .tweet_class{
+        display: inline-block;
+        width: 100px;
+        align-items: center;
+      }
+      .left_img{
+        border:none;
+        width: 30px;
+        border-radius: 10px;
+        align-items: center;
+        margin-top : 20px;
+      }
+      .text_cat{
+        display: inline-block;
+        align-items: left;
+        margin: 5px;
+      }
+      .cat_name{
+        font-size: 13px;
+        font-weight: bold;
+        color: black;
+      }
+      .cat_des{
+        font-size: 13px;
+        color: grey;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      .pop{
+        font-size: 11px;
+        color: grey;
+      }
+      .tweet_button{
+        background-color: rgb(35, 142, 219);
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border: none;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cat_preview">
+      <div class="vertical_cat_stack">
+        <div class="img_class">
+          <img src="../thumbnails/channel-1.jpeg" class="left_img">
+        </div>
+        <div class="text_class">
+          <div class="text_cat">
+            <p class="cat_name">
+              Oliver
+            </p>
+          </div>
+          <div class="text_cat">
+            <p class="cat_des">
+              the cat
+            </p>
+          </div>
+          <div class="text_cat">
+            <p class="pop">
+              Popular
+            </p>
+          </div>
+        </div>
+        <div class="tweet_class">
+          <button class="tweet_button">
+            Follow
+          </button>
+        </div>
+      </div>
+      <div>
+
+      </div>
+      <div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>

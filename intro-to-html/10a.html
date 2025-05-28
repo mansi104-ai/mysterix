@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      cat tag
+    </title>
+    <style>
+      p{
+        font-family: Arial;
+        margin: 0;
+      }
+      .main_cat{
+        display: inline-block;
+        width: 400px;
+        height: 300px;
+      }
+      .img_row{
+        display: inline-block;
+        width: 50px;
+      }
+      .text_row{
+        display: inline-block;
+        width: 200px;
+        vertical-align: top;
+        border: grey;
+      }
+      .tweet{
+        display: inline-block;
+        width: 70px;
+        vertical-align: top;
+      }
+      .img_class{
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        vertical-align: middle;
+        border: none;
+        vertical-align: top;
+      }
+      .details{
+        width: 200px;
+        font-size: 14px;
+        color: grey;
+        cursor: pointer;
+      }
+      .name{
+        width: 100px;
+        font-size: 14px;
+        color: black;
+        cursor: pointer;
+        vertical-align: top;
+        display: inline-block;
+      }
+      .tweet_class{
+        border: none;
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        width: 60px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: bold;
+        
+      }
+      .tweet_class:hover{
+        opacity: 0.3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main_cat">
+      <div class="img_row">
+        <img src = "../thumbnails/channel-1.jpeg" class="img_class">
+      </div>
+      <div class="text_row">
+        <div>
+          <p class="name">
+            Oliver
+          </p>
+        </div>
+        <div>
+          <p class="details">
+            The cat
+          </p>
+        </div>
+
+        <div>
+          <p class= "details">
+            Popular
+          </p>
+        </div>
+      </div>
+
+      <div class="tweet">
+        <button class="tweet_class">
+          tweet
+        </button>
+      </div>
+    </div>
+
+  </body>
+</html>
