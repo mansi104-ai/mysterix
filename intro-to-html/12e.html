@@ -1,24 +1,70 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Grid_1</title>
+    <title>
+      Grid
+    </title>
     <style>
       p{
-        font-family: Arial;
-        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
       }
-      .box{
+      .button_big{
+        border-radius: 5px;
+        border-color: rgb(216, 216, 216);
+        border-style: solid;
         display: flex;
         flex-direction: column;
+        padding: 0;
+        /* font-weight: bold; */
+        
+      }
+      .col{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: white;
 
       }
-
     </style>
   </head>
   <body>
-    <div class="box"></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <button class="button_big">
+      <div class="col">
+        <div style ="padding-right: 175px ;padding-left: 10px;">
+          Home
+        </div>
+        <div style="padding-right: 10px;">
+        <div style=" background-color: rgb(118, 118, 245); border-radius: 10px ;color: white; padding: 2px 9px 2px 9px;font-weight: bold">
+          14
+        </div>
+        </div>
+      </div>
+      <div class="col">
+        <div style ="padding-right: 100px; padding-left:10px">
+          Notifications
+        </div>
+        <div style="padding-right: 10px;">
+        <div style=" background-color: rgb(118, 118, 245); border-radius: 10px ;color: white; padding: 2px 9px 2px 9px;font-weight: bold">
+          3
+        </div>
+        </div>
+      </div>
+      <div class="col">
+        <div style ="padding-right: 100px ; padding-left:10px">
+          Messages
+        </div>
+        <div style="padding-right: 10px;">
+        <div style=" background-color: rgb(118, 118, 245); border-radius: 10px ;color: white; padding: 2px 9px 2px 9px;font-weight: bold">
+          5
+        </div>
+        </div>
+      </div>
+
+      
+    </button>
   </body>
 </html>
