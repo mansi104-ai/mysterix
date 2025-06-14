@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Grid
+    </title>
+    <style>
+      p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+      } 
+      .button_big{
+        border-radius: 8px;
+        border: 1px solid rgb(216, 216, 216);
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        background-color: white;
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.2s ease;
+        width: fit-content;
+        margin: 20px;
+      }
+      .button_big:hover{
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      }
+      .col{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /*-> new way of writing paddings (x, and y)*/
+        padding: 12px 16px; 
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        color: #333;
+        min-width: 200px;
+      }
+      /*way of writing conditional css*/
+      .col:not(:last-child){
+        border-bottom: 1px solid #f0f0f0;
+      }
+      .col:first-child{
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+      .col:last-child{
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+      .badge{
+        background-color: rgb(118, 118, 245);
+        border-radius: 12px;
+        color: white;
+        /*(vertical, horizontal)*/
+        padding: 4px 10px;
+        font-weight: bold;
+        font-size: 12px;
+        min-width: 16px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="button_big">
+      <div class="col">
+        <div>
+          Home
+        </div>
+        <div class="badge">
+          14
+        </div>
+      </div>
+      <div class="col">
+        <div>
+          Notifications
+        </div>
+        <div class="badge">
+          3
+        </div>
+      </div>
+      <div class="col">
+        <div>
+          Messages
+        </div>
+        <div class="badge">
+          5
+        </div>
+      </div>
+    </button>
+  </body>
+</html>
+
