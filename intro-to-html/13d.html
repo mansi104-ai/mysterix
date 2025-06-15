@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      grid
+    </title>
+    <style>
+      p{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .box{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        align-items: flex-start;
+        border: none;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+        border-radius: 4px;
+        margin-left: 20px;
+        justify-content: left;
+      }
+      .cat_img{
+        height: 40px;
+        width: 40px;
+        border-radius: 25px;
+        border: none;
+        margin-right: 10px;
+        object-fit: cover;
+        margin-top: 8px;
+        
+      }
+      .col{
+        margin-top: 8px;
+        font-size: 12px;
+        margin-bottom: 10px;
+        margin-left:5px;
+        display: flex;
+      }
+      .img-div{
+        display: flex; 
+        align-items: flex-start; 
+        margin-left: 5px;
+      }
+      .text-box{
+        display: flex;
+        flex-direction: column;
+        height: 60px ;
+        width: fit-content; 
+        align-items: flex-start;
+      }
+      .text-box-col-1{
+        display: flex;
+        justify-content: space-between; 
+        align-items: top;
+      }
+      .col-1-time{
+        font-size: 12px; 
+        color: rgb(144, 143, 143); 
+        margin-right: 4px;
+      }
+      .text-box-col-2{
+        font-size: 14px; 
+        font-weight: bold; 
+        margin-bottom: 4px;
+      }
+      .text-box-col-3{
+        color: rgb(144, 143, 143);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="box">
+      <div style=" margin-top: 10px; font-size: 12px;margin-bottom: 10px;margin-left:9px;color: rgb(130, 130, 130);">
+        ALL INBOXES
+      </div>
+      <div class="col">
+        <div class="img-div">
+          <img src="../thumbnails/cat_1.jpg" class="cat_img">
+        </div>
+        <div class="text-box">
+          <div class="text-box-col-1">
+            <div style="font-size: 15px; font-weight: bold;margin-right: 100px; margin-bottom: 4px;"> 
+              Chewy Promotions</div>
+            <div class="col-1-time">4:58 PM</div>
+          </div>
+          <div class="text-box-col-2">
+            Biggest sales of the year!
+          </div>
+          <div class="text-box-col-3">
+            Hey there! We're writing to tell you about our...
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="img-div">
+          <img src="../thumbnails/dog_2.jpg" class="cat_img">
+        </div>
+        <div class="text-box">
+          <div class="text-box-col-1">
+            <div style="font-size: 15px; font-weight: bold;margin-right: 165px; margin-bottom: 4px;"> 
+              Best Buy</div>
+            <div class="col-1-time">12:32 PM</div>
+          </div>
+          <div class="text-box-col-2">
+            Your Best Buy eReceipt
+          </div>
+          <div class="text-box-col-3">
+            Thank You for shopping at Best Buy, here is...
+          </div>
+
+        </div>
+      </div>
+      <div class="col" style="margin-bottom: 25px">
+        <div class="img-div">
+          <img src="../thumbnails/cat2.jpg" class="cat_img">
+        </div>
+        <div class="text-box">
+          <div class="text-box-col-1">
+            <div style="font-size: 15px; font-weight: bold;margin-right: 195px; margin-bottom: 4px;"> 
+              Netflix</div>
+            <div class="col-1-time">9:00 AM</div>
+          </div>
+          <div class="text-box-col-2">
+            Here's what's coming soon to Netflix
+          </div>
+          <div class="text-box-col-3" >
+            Brand new movies and shows, old favorites...
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
