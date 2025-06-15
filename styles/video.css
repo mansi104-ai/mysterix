@@ -20,12 +20,29 @@
         display: inline-block;
         vertical-align: top;
       }
+      .video-time{
+        font-family: Roboto, Arial;
+        font-size: 12px;
+        font-weight: 500;
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 8px;
+        right: 5px;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-radius: 2px;
+      }
       .profile-picture{
         width: 40px; 
         border-radius: 30px;
       }
       .thumbnail-row{
         margin-bottom: 12px;
+        position: relative;
+        z-index: 0;
       }
       .video-author,.video-stats{
         font-size: 12px;
