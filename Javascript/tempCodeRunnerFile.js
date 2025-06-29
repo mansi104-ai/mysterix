@@ -1,0 +1,1 @@
+console.log(name_me.slice(0,2));
